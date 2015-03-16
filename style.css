@@ -1,0 +1,122 @@
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.editbox
+{
+display:none
+}
+td,tr
+{
+padding:5px;
+}
+.editbox
+{
+	
+font-size:14px;
+width:130px;
+background-color:#F6F7C6;
+border:solid 1px #000;
+padding:5px;
+text-align: center;
+}
+
+.edit_td:hover
+{
+background:url(pictures/pencil.png) right no-repeat #80C8E5;
+cursor:pointer;
+}
+.table tr,td,th{
+	text-align: center;
+}
+.print_customers{
+    position: fixed;
+    margin-left: 1250px;
+    }
+.print_customers_text{
+    text-align: center;
+    position: fixed;
+    margin-left: -40px;
+}
+.print_supplier{
+    position: fixed;
+    margin-left: 1250px;
+    }
+.print_supplier_text{
+    text-align: center;
+    position: fixed;
+    margin-left: -40px;
+}
+.box {
+    width:450px;
+    height:400px;
+    background-color:#d9d9d9;
+    position:fixed;
+    margin-left:-550px; /* half of width */
+    margin-top:-80px;  /* half of height */
+    top:40%;
+    left:50%;
+}
+.box1 {
+    width:450px;
+    height:400px;
+    background-color:#d9d9d9;
+    position:fixed;
+    margin-left:100px; /* half of width */
+    margin-top:-80px;  /* half of height */
+    top:40%;
+    left:50%;
+}
+.naslov {
+    margin-left: 300px;
+}
+.invoice_picture{
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 100px;
+    position: fixed;
+}
+.card_customers{
+    position: fixed;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 100px;
+
+}
+.card_supplier{
+    position: fixed;
+    text-align: center;
+    margin-left: 690px;
+    margin-top: 100px;
+}
+.book_invoices_in{
+    position: fixed;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 330px;
+}
+.book_invoices_out{
+    position: fixed;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 330px;
+}
+.statement{
+    position: fixed;
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.settings{
+    position: fixed;
+    text-align: center;
+    margin-left: 770px;
+    margin-top: 330px;
+}
+.title{
+    position: fixed;
+    margin-left: 320px;
+    font-size: 35;
+    box-shadow: 122px;
+}
