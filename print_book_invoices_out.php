@@ -83,7 +83,7 @@ $pdf ->SetFont('DejaVu','','10');
 $pdf ->SetX(4);
 $pdf ->Cell(10,10,$order_number++,1,0,'C');
 $pdf ->Cell(22,10,$date_traffic,1,0,'C');
-$pdf ->Cell(27,10,$customer_name,1,0,'C');
+$pdf ->Cell(27,10,iconv('utf-8','cp1250',$customer_name),1,0,'C');
 $pdf ->Cell(20,10,$customer_tin,1,0,'C');
 $pdf ->Cell(37,10,$invoice_value2,1,0,'C');
 $pdf ->cell(37,10,$invoice_value,1,0,'C');
