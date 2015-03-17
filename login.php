@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Strana za ulaz</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<link href="style_login.css" type="text/css" rel="stylesheet" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>

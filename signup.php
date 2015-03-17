@@ -3,7 +3,7 @@
 <html >
 <head>
 	<title>Otvaranje naloga</title>
-	<link href="css/style_login.css" type="text/css" rel="stylesheet" />
+	<link href="style_login.css" type="text/css" rel="stylesheet" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>	
@@ -40,14 +40,19 @@
 					$message = '
 
 					Hvala što koristite našu aplikaciju!
-					Vaš nalog je napravljen, možete se prijaviti sa sledećim podacima nakon što aktivirate Vaš nalog klikom na ling ispod.
+
+					Vaš nalog je napravljen, možete se prijaviti sa sledećim podacima nakon
+				    što aktivirate Vaš nalog tako što ćete iskopirati link ispod 
+				    u Vašem brouseru.
 
 					------------------------
 					Username: '.$name.'
 					Password: '.$password.'
 					------------------------
-
-					localhost/KonacnaAplikacija/source_files/verify.php?email='.$email.'&hash='.$hash.'
+						
+					 localhost/KonacnaAplikacija/aplication/verify.php?
+					 email='.$email.'&hash='.$hash.'
+					
 
 					'; 
 					
