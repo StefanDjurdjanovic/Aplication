@@ -1,7 +1,7 @@
 <?php
 
 
-
+include("checksession.php");
 require_once('connection.php');
 
 if(isset($_GET['action']))
@@ -23,6 +23,10 @@ switch($action) {
 
 	case 'delete':
 	deleteInvoice();
+	break;
+
+	case 'logout':
+	logout();
 	break;
 }
 //Kraj ispitivanja akcije
@@ -129,6 +133,10 @@ $result = mysql_query($query);
 }
 	
 }
+function logout() {
+		session_destroy();
+		header("Location: index.php");
+	}
 
 //Kraj funkcija akcija
 ?>

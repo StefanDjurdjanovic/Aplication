@@ -1,6 +1,6 @@
 <?php
 	
-	
+	include("checksession.php");
 	
 //Pocetak ispitivanja akcije
 
@@ -26,6 +26,10 @@
 		case 'delete':
 			deleteCustomer();
 		break;
+
+		case 'logout':
+	logout();
+	break;
 	}
 //Kraj ispitivanja akcije
 //Pocetak ispitivanja izgleda
@@ -126,5 +130,9 @@ function listCustomerView() {
 }
 	
 }
+function logout() {
+		session_destroy();
+		header("Location: index.php");
+	}
 // Kraj funkcija akcija
 ?>

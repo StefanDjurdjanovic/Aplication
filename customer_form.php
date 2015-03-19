@@ -41,13 +41,14 @@
 <!-- Naslov stranice i dugmad za prelazak na iste -->
   <h1>Stranica za unos firmi</h1>
   <div class="navbar navbar-default navbar-static-top" role="navigation" >
-  <a href="index.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
+  <a href="first_page.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
     <a href="statement.php"><button type="button" class="btn btn-primary">Unos izvoda</button></a>
     <a href="card_customers.php"><button type="button" class="btn btn-primary">Kartice kupaca</button></a>
     <a href="card_supplier.php"><button type="button" class="btn btn-primary">Kartice dobavljaca</button></a>
     <a href="book_invoices_in.php"><button type="button" class="btn btn-primary">Knjiga ulaznih faktura</button></a>
     <a href="book_invoices_out.php"><button type="button" class="btn btn-primary">Knjiga izlaznih faktura</button></a>
-    <a href="my_company.php"><button type="button" class="btn btn-primary" >Podešavanje naloga</button></a>
+    <a href="settings.php"><button type="button" class="btn btn-primary" >Podešavanje naloga</button></a>
+    <a href="customer.php?action=logout"><img src="pictures\logout.png" class="customer_logout" /></a>
   </div>
   <!-- Forma za unos firme -->
   <img src="pictures/addButton.png" data-toggle="modal" data-target=".bs-example-modal-lg">Unos firme

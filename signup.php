@@ -9,7 +9,7 @@
 <body>	
 	<div id="header">
 		<h2>Napravite nalog</h2>
-		<h2><a class="login" href="login.php">PRISTUP</a></h2>
+		<h2><a class="login" href="index.php">PRISTUP</a></h2>
 	</div>	
 	<div id="wrap">
 	    <?php
@@ -50,8 +50,7 @@
 					Password: '.$password.'
 					------------------------
 						
-					 localhost/KonacnaAplikacija/aplication/verify.php?
-					 email='.$email.'&hash='.$hash.'
+					 portfoliostefan.in.rs/verify.php?email='.$email.'&hash='.$hash.'
 					
 
 					'; 

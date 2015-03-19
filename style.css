@@ -21,6 +21,74 @@ border:solid 1px #000;
 padding:5px;
 text-align: center;
 }
+.logout
+{
+position: fixed;
+margin-left: 220px;
+margin-top: 7px;
+}
+.first_page_logout
+{
+position: fixed;
+margin-left: 1320px;
+margin-top: 0px;
+}
+.book_in_logout
+{
+position: fixed;
+margin-left: 255px;
+margin-top: 0px;
+}
+.invoice_logout
+{
+position: fixed;
+margin-left: 125px;
+margin-top: 0px;
+}
+.my_company_logout
+{
+position: fixed;
+margin-left: 285px;
+margin-top: 0px;
+}
+.card_customer_logout
+{
+position: fixed;
+margin-left: 250px;
+margin-top: 0px;
+}
+.card_supplier_logout
+{
+position: fixed;
+margin-left: 270px;
+margin-top: 0px;
+}
+
+.statement_logout
+{
+position: fixed;
+margin-left: 235px;
+margin-top: 0px;
+}
+.invoice_item_logout
+{
+position: fixed;
+margin-left: 120px;
+margin-top: 0px;
+}
+
+.book_out_logout
+{
+position: fixed;
+margin-left: 245px;
+margin-top: 0px;
+}
+.customer_logout
+{
+position: fixed;
+margin-left: 335px;
+margin-top: 0px;
+}
 
 .edit_td:hover
 {

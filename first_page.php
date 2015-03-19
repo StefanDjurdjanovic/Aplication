@@ -39,17 +39,17 @@
 		{
 			case 'list':
 			default:
-				listCompany();
+				listFirstPage();
 			break;
 		}
 	
 //Kraj ispitivanja izgleda
 
-	function listCompany() {
+	function listFirstPage() {
 	
 		
 		
-		include("my_company_form.php");
+		include("first_page_form.php");
 	}
 	
 	function logout() {

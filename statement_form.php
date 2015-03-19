@@ -31,16 +31,18 @@
   <!-- Krak skripte za prelazak u novi red koristeci enter -->
 </head>
 <!-- Naslov stranoce i dugmad za prelazak na iste -->
-<h1>Stranica za unos izvoda</h1>
 <body>
+<h1>Stranica za unos izvoda</h1>
+
   <div class="navbar navbar-default navbar-static-top" role="navigation" >
-  <a href="index.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
+  <a href="first_page.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
     <a href="customer.php"><button type="button" class="btn btn-primary">Unos kupaca i izrada faktura</button></a>
     <a href="card_customers.php"><button type="button" class="btn btn-primary">Kartice kupaca</button></a>
     <a href="card_supplier.php"><button type="button" class="btn btn-primary">Kartice dobavljača</button></a>
     <a href="book_invoices_in.php"><button type="button" class="btn btn-primary">Knjiga ulaznih faktura</button></a>
     <a href="book_invoices_out.php"><button type="button" class="btn btn-primary">Knjiga izlaznih faktura</button></a>
     <a href="my_company.php"><button type="button" class="btn btn-primary" >Podešavanje naloga</button></a>
+    <a href="invoice.php?action=logout"><img src="pictures/logout.png"  class="statement_logout"/></a>
   </div>
   <!-- Dugme za unos izvoda -->
   <img src="pictures/addButton.png" data-toggle="modal" data-target=".bs-example-modal-lg">Unos izvoda 

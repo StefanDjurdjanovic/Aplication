@@ -7,7 +7,7 @@
 <body>	
 	<div id="header">
 		<h2>STRANA ZA VERIFIKACIJU</h2>
-		<h2><a class="login" href="login.php">PRISTUP |</a></h2>
+		<h2><a class="login" href="index.php">PRISTUP |</a></h2>
 		<h2><a class="signup" href="signup.php">NAPRAVITE NALOG</a></h2>
 		</div>
 	<div id="wrap">

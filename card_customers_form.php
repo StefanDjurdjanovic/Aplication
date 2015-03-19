@@ -42,13 +42,14 @@
 <!-- Naslov stranice i dugmad za prelazak na izte -->
   <h1>Stranica za pregled kartica kupaca</h1>
   <div class="navbar navbar-default navbar-static-top" role="navigation" >
-  <a href="index.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
+  <a href="first_page.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
     <a href="customer.php"><button type="button" class="btn btn-primary" >Unos kupaca i izrada faktura</button></a>
     <a href="statement.php"><button type="button" class="btn btn-primary" >Unos izvoda</button></a>
     <a href="card_supplier.php"><button type="button" class="btn btn-primary">Kartice dobavljača</button></a>
     <a href="book_invoices_in.php"><button type="button" class="btn btn-primary" >Knjiga ulaznih faktura</button></a>
     <a href="book_invoices_out.php"><button type="button" class="btn btn-primary">Knjiga izlaznih faktura</button></a>
     <a href="my_company.php"><button type="button" class="btn btn-primary" >Podečavanje naloga</button></a>
+    <a href="card_customer.php?action=logout"><img src="pictures\logout.png" class="card_customer_logout" /></a>
    
   </div>
   <div class="print_customers">

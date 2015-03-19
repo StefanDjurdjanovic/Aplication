@@ -1,9 +1,25 @@
 <?php
 
-
+include("checksession.php");
 
 require_once('connection.php');
 
+if(isset($_GET['action']))
+    {
+      $action = $_GET['action'];
+    }
+  else 
+    {
+      $action = '';
+    }
+    
+  switch($action) 
+  {
+    case 'logout':
+      logout();
+    break;
+  }
+  
 
 //Pocetak ispitivanja izgleda
 
@@ -25,7 +41,9 @@ switch($view) {
   default:
   listInvoiceView();
   break;
+
 }
+
 
 //Kraj ispitivanja izgleda
 //Pocetak funkcija izgleda  
@@ -108,7 +126,10 @@ function listInvoiceView() {
 
     }
 
-
+function logout() {
+    session_destroy();
+    header("Location: index.php");
+  }
 
 //Kraj funkcija izgleda
 

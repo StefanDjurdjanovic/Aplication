@@ -36,7 +36,7 @@
     <!-- Naslov stranice i dugmad za prelazak na iste -->
     <h1>Stranica za unos faktura</h1>
     <div class="navbar navbar-default navbar-static-top" role="navigation" >
-    <a href="index.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
+    <a href="first_page.php"><button type="button" class="btn btn-primary" >Početna strana</button></a>
     <a href="customer.php"><button type="button" class="btn btn-primary">Unos kupaca i izrada faktura</button></a>
       <a href="statement.php"><button type="button" class="btn btn-primary">Unos izvoda</button></a>
       <a href="card_customers.php"><button type="button" class="btn btn-primary">Kartice kupaca</button></a>
@@ -44,6 +44,7 @@
       <a href="book_invoice_in.php"><button type="button" class="btn btn-primary">Knjiga ulaznih faktura</button></a>
       <a href="book_invoice_out.php"><button type="button" class="btn btn-primary">Knjiga izlaznih faktura</button></a>
       <a href="my_company.php"><button type="button" class="btn btn-primary" >Podešavanje naloga</button></a>
+      <a href="invoice.php?action=logout"><img src="pictures\logout.png" class="invoice_logout" /></a>
     </div>
     <!-- Dugme za unos fakture -->
 <img src="pictures/addButton.png" data-toggle="modal" data-target=".bs-example-modal-lg">Unos fakture 

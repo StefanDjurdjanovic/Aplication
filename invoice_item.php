@@ -1,6 +1,6 @@
 <?php
 
-
+include("checksession.php");
 
 require_once('connection.php');
 if(isset($_GET['action']))
@@ -23,6 +23,10 @@ switch($action) {
 	case 'delete':
 	deleteProduct();
 	break;
+
+	case 'logout':
+			logout();
+		break;
 }
 //Kraj ispitivanja akcije
 //Pocetak ispitivanja izgleda
@@ -154,5 +158,9 @@ function AddProduct() {
 			}
 
 		}
+		function logout() {
+		session_destroy();
+		header("Location: index.php");
+	}
 		//Kraj funkcija akcija
 		?>

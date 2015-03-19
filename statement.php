@@ -1,6 +1,6 @@
 <?php
 
-
+include("checksession.php");
 
 require_once('connection.php');
 
@@ -24,6 +24,10 @@ switch($action) {
 	case 'delete':
 	deleteStatement();
 	break;
+
+	case 'logout':
+			logout();
+		break;
 }
 //Kraj ispitivanja akcije
 //Pocetak ispitivanja izgleda
@@ -123,5 +127,9 @@ function deleteStatement() {
 	}
 
 }
+function logout() {
+		session_destroy();
+		header("Location: index.php");
+	}
 //Kraj funkcija akcija
 ?>
